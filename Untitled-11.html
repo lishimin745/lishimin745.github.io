@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>圖片長卷軸網頁</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    .section {
+      padding: 100px 20px;
+      margin-top: 60px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #555;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .back-to-top:hover {
+      background-color: #000;
+    }
+
+    html {
+      scroll-behavior: smooth; /* 平滑捲動效果 */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <div class="navbar">
+    <a href="#section3">跳置網頁最下方</a>
+  </div>
+
+  <!-- 區塊 1：圖片展示 -->
+  <div class="section" id="section1" style="background-color: #f0f0f0;">
+    <h2>Carlos</h2>
+    <div class="gallery">
+      <img src="https://i.pinimg.com/736x/cd/c2/f6/cdc2f6c67c18b6d5e67d05c08d96a049.jpg" alt="圖1-1">
+      <img src="https://i.pinimg.com/736x/de/7a/f7/de7af7dd24b6adf9a947681138bcbbd6.jpg" alt="圖1-2">
+      <img src="https://i.pinimg.com/736x/32/10/4d/32104d6b7a1db1f1c931c639ce70becf.jpg" alt="圖1-3">
+    </div>
+  </div>
+
+  <!-- 區塊 2 -->
+  <div class="section" id="section2" style="background-color: #e0e0e0;">
+    <h2>Charles</h2>
+    <div class="gallery">
+      <img src="https://i.pinimg.com/736x/e6/fe/f3/e6fef3178b204dfc5d84355cbe417ffd.jpg" alt="圖2-1">
+      <img src="https://i.pinimg.com/736x/31/6a/d3/316ad322fbe321f2c3bf28ed33f7ed27.jpg" alt="圖2-2">
+      <img src="https://i.pinimg.com/736x/89/8f/68/898f6828c1bb0b7807cb2780b3f011bc.jpg" alt="圖2-3">
+    </div>
+  </div>
+
+  <!-- 區塊 3 -->
+  <div class="section" id="section3" style="background-color: #d0d0d0;">
+    <h2>Max</h2>
+    <div class="gallery">
+      <img src="https://i.pinimg.com/736x/f0/eb/c6/f0ebc641f42072d49a0009cbf8cc28c2.jpg" alt="圖3-1">
+      <img src="https://i.pinimg.com/736x/c9/05/a4/c905a420f7e093e7adf58e47e3ba90be.jpg" alt="圖3-2">
+      <img src="https://i.pinimg.com/736x/cd/54/80/cd54805051d8cacb0fc10e6d77043fb0.jpg" alt="圖3-3">
+    </div>
+  </div>
+
+
+ <!-- 回到頁首 -->
+  <a href="#section1" class="back-to-top">回到頁首</a>
+
+</body>
+</html>
