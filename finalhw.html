@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>F1 簡介網站</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #222;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      position: relative;
+      margin-right: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      top: 100%;
+      left: 0;
+      min-width: 150px;
+      z-index: 10;
+    }
+
+    .submenu a {
+      padding: 10px;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    nav li:hover .submenu {
+      display: block;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <nav>
+    <ul>
+      <li><a href="#intro">基本介紹</a></li>
+      <li>
+          <a href="#">車隊簡介</a>
+        <ul class="submenu">
+          <li><a href="#team1">Red Bull</a></li>
+          <li><a href="#team2">Mercedes</a></li>
+          <li><a href="#team3">Ferrari</a></li>
+          <li><a href="#team4">McLaren</a></li>
+          <li><a href="#team5">Aston Martin</a></li>
+          <li><a href="#team6">Alpine</a></li>
+          <li><a href="#team7">Williams</a></li>
+          <li><a href="#team8">Kick Sauber</a></li>
+          <li><a href="#team9">Haas</a></li>
+          <li><a href="#team10">RB</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">我喜歡的</a>
+        <ul class="submenu">
+          <li><a href="#driver1">Max Verstappen</a></li>
+          <li><a href="#driver2">Lewis Hamilton</a></li>
+          <li><a href="#driver3">Charles Leclerc</a></li>
+          <li><a href="#driver4">Lando Norris</a></li>
+          <li><a href="#driver5">Fernando Alonso</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- 內容區 -->
+
+  <section id="intro">
+    <h2>基本介紹</h2>
+    <p>
+        F1（Formula One）是世界最高等級的單座開輪式賽車比賽，由國際汽車聯盟（FIA）主辦。<br>
+        每年舉辦的F1世界錦標賽（FIA Formula One World Championship）吸引全球頂尖車隊與車手參加，包括紅牛、法拉利與梅賽德斯等知名隊伍。<br>
+        比賽在全球各地的賽道舉行，如摩納哥、英國銀石、義大利蒙札等經典賽道。F1結合尖端科技、戰略與車手技術，被譽為「速度與科技的極致競技」。<br>
+        賽季包含多站比賽，積分累計決定車手與車隊冠軍，是全球觀眾最多的運動之一。<br>
+      </p>
+  </section>
+ 
+  <div style="padding: 20px;">
+    <p style="font-weight: bold; font-size: 20px; margin-bottom: 5px;">車子</p>
+    <img src="F1/f1.png." width="800" height="500" style="display: block;">
+  </div>
+   
+  <div style="padding: 20px;">
+    <p style="font-weight: bold; font-size: 20px; margin-bottom: 5px;">車子多難開？</p>
+    <img src="F1/f11.png." width="800" height="500" style="display: block;">
+  </div>
+
+  <div style="padding: 20px;">
+    <p style="font-weight: bold; font-size: 20px; margin-bottom: 5px;">車手多難當？</p>
+    <img src="F1/f111.png" width="800" height="500" style="display: block;">
+  </div>
+
+  <div style="padding: 20px;">
+    <p style="font-weight: bold; font-size: 20px; margin-bottom: 5px;">比賽週行程</p>
+    <img src="F1/f1111.png" width="800" height="500" style="display: block;">
+  </div>
+
+  <div style="padding: 20px;">
+    <p style="font-weight: bold; font-size: 20px; margin-bottom: 5px;">賽程(2025)</p>
+    <p>
+        澳洲(3/16)，中國(3/23)，日本(4/6)，巴林(4/13)，沙烏地阿拉伯(4/21)，邁阿密(5/5)，艾米利亞羅馬涅(5/18)，摩納哥(5/25)，西班牙(6/1)，加拿大(6/16)，奧地利(6/29)，英國(7/6)<br>
+        比利時(7/27)，匈牙利(8/3)，荷蘭(8/31)，義大利(9/7)，亞塞拜然(9/21)，新加坡(10/5)，美國(10/20)，墨西哥(10/27)，巴西(11/10)，拉斯維加斯(11/23)，卡達(12/1)，阿不達比(12/7)
+      </p>
+  </div>
+
+
+
+
+  <!-- 車隊簡介 -->
+ <section id="team1"><h2>Red Bull</h2></section>
+ <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+    <!-- 圖片放左邊 -->
+    <img src="F1/red.jpg"  style="width: 250px;margin-right: 20px;">
+  
+    <!-- 文字放右邊 -->
+    <div style="font-size: 16px; line-height: 1.6;">
+      <p><strong>車隊全名：</strong>Oracle Red Bull Racing</p>
+      <p><strong>總部：</strong>Milton Keynes, United Kingdom</p>
+      <p><strong>車隊冠軍：</strong>6</p>
+      <p><strong>分站勝利：</strong>122</p>
+      <p><strong>桿位：</strong>103</p>
+      <p><strong>最快圈：</strong>99</p>
+    </div>
+  </div>
+  <div style="padding: 20px;">
+    <p style="line-height: 1.8;">
+      2005年收購捷豹車隊加入F1後，於2010-2013年創下車隊、車手四連冠的紅牛王朝，隨後坐穩了老三地位直至2021年Max奪下車手冠軍為止。<br>
+      因為有著極具規模的青訓體系及二隊，建立起了以一號車手為核心的競爭策略，並以對二號車手鐵面無情且缺乏耐心的毀譽參半風格聞名。<br>
+      2022-2023年都以絕對的優勢拿下車隊總冠軍寶座，尤其2023的的RB19以22場競賽中贏下21勝的戰績，成為F1史上最具統治力的賽車。<br>
+      2024年起陷入內鬥與醜聞，逼走包括空氣動力學傳奇Newey在內等不少元老級人物，加上賽車競爭力大降，最終以季軍作收。
+    </p>
+  </div>
+  
+  <!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>F1 Drivers - 靠左但不貼邊</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 800px;
+      margin-left: 40px; /* 控制與左邊的距離 */
+      padding: 20px 0;
+    }
+
+    .profile {
+      display: flex;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .profile img {
+      height: auto;
+      margin-right: 15px;
+      border-radius: 8px;
+    }
+
+    .profile-text {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Max Verstappen -->
+  <div class="profile">
+    <img src="F1/max.jpg"  width="300">
+    <div class="profile-text">
+      <h3>Max Verstappen（2024賽季總排名：1）</h3>
+      <p>21~24賽季四冠王。體育漫畫中的反派，能駕馭非常難開的車，<br>
+        常造成隊友陷入自我懷疑，也會因為能力太強掩蓋了賽車缺陷，<br>
+        反而造成賽車越研發越糟的困境。<br>
+        賽車風格激進、技術流，把車開出王霸之氣。<br>
+        優勢明顯時脾氣都很好，但一旦受到挑戰就會進入Mad模式開噴，<br>
+        最近也因此被FIA盯上吃了髒話罰單。<br>
+        在媒體面前總是有尖銳幽默感的一面，貢獻了不少經典名言；<br>
+        雖然是反派，但很多車手都對他的性格大加讚賞。<br>
+        喜歡開模擬器、FIFA、地圖、小孩跟貓，對對女友的女兒很好，<br>
+        2025年也將迎接第一個孩子出生。</p>
+    </div>
+  </div>
+
+  <!-- Yuki Tsunoda -->
+  <div class="profile">
+    <img src="F1/yuki.jpg"  width="300">
+    <div class="profile-text">
+      <h3>Yuki Tsunoda / 角田裕毅（2024賽季排名：12）</h3>
+      <p>來自日本育成體系的車手，對起跑和煞車時機的掌控技巧出色，<br>
+        駕駛風格兇悍，常出現全贏或全輸的孤注一擲。<br>
+        賽道下是幽默、和藹可親的吃貨，在各陣營車手間都有好人緣，<br>
+        但上車後會性情大變，展現出人比車更兇的拼命性格，反差極大。<br>
+        在進入F1後的第5年於第3場比賽起代替Liam Lawson，<br>
+        成功晉升至紅牛車隊，<br>
+        卻遇上近10年來賽車競爭力最差的時刻，<br>
+        儘速適應賽車操駕並展現能力成為當務之急。</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<section id="team2"><h2>Mercedes</h2></section>
+ <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+  <!-- 圖片放左邊 -->
+  <img src="F1/mercedes.jpg"  style="width: 250px;margin-right: 20px;">
+
+  <!-- 文字放右邊 -->
+  <div style="font-size: 16px; line-height: 1.6;">
+    <p><strong>車隊全名：</strong>Mercedes-AMG PETRONAS F1 Team</p>
+    <p><strong>總部：</strong>Brackley, United Kingdom</p>
+    <p><strong>車隊冠軍：</strong>8</p>
+    <p><strong>分站勝利：</strong>119</p>
+    <p><strong>桿位：</strong>131</p>
+    <p><strong>最快圈：</strong>100</p>
+  </div>
+</div>
+<div style="padding: 20px;">
+  <p style="line-height: 1.8;">
+    2010回歸賽車運動後，在2014至2021賽季間拿下七次車手世界冠軍和八次車隊世界冠軍，F1場上的（前）絕對霸主。<br>
+    2021爭冠大戲後，2022年起因為過於激進的設計理念而爭扎於亞、季軍之位且競爭力逐年下滑，<br>
+    直到2024年中又異軍突起，在歐洲賽道中成為分站勝利的強勢競爭者。<br>
+    曾在2016賽季經歷隊內兩位車手互相廝殺至最後一站的慘痛經驗，<br>
+    稱霸時期會透過各種策略、指令等方式貫徹嚴格的一二號車手政策，並以合約確保二號車手的穩定性，管理風格具有賽車傳統的紳士與殘酷特質。<br>
+  </p>
+</div>
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>F1 Drivers - 靠左但不貼邊</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 800px;
+      margin-left: 40px; /* 控制與左邊的距離 */
+      padding: 20px 0;
+    }
+
+    .profile {
+      display: flex;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .profile img {
+      height: auto;
+      margin-right: 15px;
+      border-radius: 8px;
+    }
+
+    .profile-text {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- George Russell -->
+  <div class="profile">
+    <img src="F1/george.jpg"  width="300">
+    <div class="profile-text">
+      <h3>George Russell（2024賽季總排名：7）</h3>
+      <p>早期以開著慢車拿出優異表現及穩定的風格備受讚賞；<br>
+        如今卻以會在最後一圈發生失誤丟掉勝利，<br>
+        或是取得勝利後被DSQ等怪形象被粉絲記住；<br>
+        喜歡講一些沒人聽得懂的老派俗語，迷因數量快速累積中。<br>
+        2025年將面對兢爭力不如過去的賽車、轉投他隊的前隊友，<br>
+        以及對車隊核心位置虎視眈眈的後輩，可謂腹背受敵。</p>
+    </div>
+  </div>
+
+  <!-- Andrea Kimi Antonelli -->
+  <div class="profile">
+    <img src="F1/kimi.jpg"  width="300">
+    <div class="profile-text">
+      <h3>Andrea Kimi Antonelli（2025新秀）</h3>
+      <p>在在賓士青訓的安排下跳過了F3的天才，<br>
+        雖然在F2中並沒有拿出如往常驚豔的結果且在攻防中尚為青澀，<br>
+        但快速適應比賽並展現出競爭力，僅半年便宣布加入賓士車隊；<br>
+        由於過往幾乎沒有新人首季就進入上游車隊，<br>
+        所以2025賽季能拿出什麼樣的表現備受注目。<br>
+        身為義大利人，中間名又和前法拉利世界冠軍Raikkonen同名，<br>
+        本人也希望被叫做Kimi，合理懷疑是個有法拉利情節的孩子。</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+  
+ <section id="team3"><h2>Ferrari</h2></section>
+ <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+  <!-- 圖片放左邊 -->
+  <img src="F1/ferrari.jpg"  style="width: 250px;margin-right: 20px;">
+
+  <!-- 文字放右邊 -->
+  <div style="font-size: 16px; line-height: 1.6;">
+    <p><strong>車隊全名：</strong>Scuderia Ferrari HP</p>
+    <p><strong>總部：</strong>Maranello, Italy</p>
+    <p><strong>車隊冠軍：</strong>16</p>
+    <p><strong>分站勝利：</strong>249</p>
+    <p><strong>桿位：</strong>253</p>
+    <p><strong>最快圈：</strong>263</p>
+  </div>
+</div>
+<div style="padding: 20px;">
+  <p style="line-height: 1.8;">
+    從F1創始之初就參加比賽至近的豪門車隊，已經成為賽車運動的代名詞，以致每年就算一分未得也會有參賽獎金約7500萬歐元，堪稱F1的活招牌。<br>
+    義大利語中的粉絲「tifosi」一詞也專指法拉利車隊粉絲。<br>
+    由於車隊組織文化之故，長年處於內鬥狀態，導致稀爛策略、混亂政治及脫線的技師組已成為日常，<br>
+    再加上倒楣的車手與造成反效果或無感的升級，形成車隊－車手－賽車的（不可能）爭冠三角。<br>
+    不知道為什麼近年旗下車手的顏值似乎總是圍場頂標，被戲稱把顏值當成篩選車手的指標之一。<br>
+  </p>
+</div>
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>F1 Drivers - 靠左但不貼邊</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 800px;
+      margin-left: 40px; /* 控制與左邊的距離 */
+      padding: 20px 0;
+    }
+
+    .profile {
+      display: flex;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .profile img {
+      height: auto;
+      margin-right: 15px;
+      border-radius: 8px;
+    }
+
+    .profile-text {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Charles Leclerc -->
+  <div class="profile">
+    <img src="F1/charles.jpg"  width="300">
+    <div class="profile-text">
+      <h3>Charles Leclerc（2024賽季排名：3）</h3>
+      <p>以史上最快晉升速度被法拉利簽下罕見五年長約的紅軍少主。<br>
+         賽車生涯充滿死亡的陰影，<br>
+         帶著父親、教父、摯友的遺願在爭奪世界冠軍的路上努力中。<br>
+         技術高超、好勝心強，<br>
+         風格上總是把賽車推向極限中的極限，攻擊性十足。<br>
+         近年憑藉著和帥氣長相同等難忘的倒楣運氣在非車迷中引起關注。<br>
+         2025年將生涯第二次迎來世界冠軍級的隊友，<br>
+         兩人在賽道上會產生什麼樣的火花，<br>
+         又會如何爭取隊內主導地位，成為全世界關注焦點。</p>
+    </div>
+  </div>
+
+  <!-- Lewis Hamilton -->
+  <div class="profile">
+    <img src="F1/lewis.jpg"  width="300">
+    <div class="profile-text">
+      <h3>Lewis Hamilton（2024賽季排名：8）</h3>
+      <p>七屆車手世界冠軍（2008、2014~2015、2017~2020），<br>
+          F1史上唯一一位非裔車手，現役中當之無愧的第一人。<br>
+          新秀賽季拿下年度亞軍、隔年加冕世界冠軍，駕駛風格優雅凌厲，<br>
+          但很愛在無線電裡各種抱怨，形成反差。<br>
+          2024年2月宣布加盟法拉利的新聞堪稱史詩級轉隊。<br>
+          素食主義者，也是場上少數致力於環境、平權等議題倡議的車手；<br>
+          在時尚圈、足球圈、美式足球圈、演藝圈、音樂圈都有涉略，<br>
+          同時也是電影《F1》的製片。</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+  
+  <section id="team4"><h2>McLaren</h2></section>
+  <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+    <!-- 圖片放左邊 -->
+    <img src="F1/McLaren.jpg"  style="width: 250px;margin-right: 20px;">
+  
+    <!-- 文字放右邊 -->
+    <div style="font-size: 16px; line-height: 1.6;">
+      <p><strong>車隊全名：</strong>McLaren Formula 1 Team</p>
+      <p><strong>總部：</strong>Woking, United Kingdom</p>
+      <p><strong>車隊冠軍：</strong>9</p>
+      <p><strong>分站勝利：</strong>189</p>
+      <p><strong>桿位：</strong>164</p>
+      <p><strong>最快圈：</strong>172</p>
+    </div>
+  </div>
+  <div style="padding: 20px;">
+    <p style="line-height: 1.8;">
+      和法拉利、威廉斯並列為F1歷史成立最悠久的三大隊，但近20年表現平庸，在2010年後更是徹底淪為中下游車隊並陷入嚴重財政危機。<br>
+      為了解決資金問題而開始瘋狂參加不同賽事、瘋狂找合作夥伴、瘋狂推出各種贊助大禮包方案、瘋狂大拍賣家產等方式延續車隊生命。<br>
+      2023年初拿出了黑歷史等級的慢車，但在季中升級後一躍成為頒獎台常客，2024年更是後起直追，斬斷紅牛車隊的衛冕之路，時隔26年重回車隊冠軍的寶座。<br>
+      擁有兩位被稱為新世代最冠軍相的車手，2025年將向車隊、車手雙冠軍發起挑戰。
+    </p>
+  </div>
+  
+  <!DOCTYPE html>
+  <html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <title>F1 Drivers - 靠左但不貼邊</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 800px;
+        margin-left: 40px; /* 控制與左邊的距離 */
+        padding: 20px 0;
+      }
+  
+      .profile {
+        display: flex;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+  
+      .profile img {
+        height: auto;
+        margin-right: 15px;
+        border-radius: 8px;
+      }
+  
+      .profile-text {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <!-- Lando Norris -->
+    <div class="profile">
+      <img src="F1/Lando.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Lando Norris（2024賽季排名：2）</h3>
+        <p>嬌生慣養的小少爺，個性有點跋扈、講話不經大腦讓車隊很困擾，<br>
+          但對欣賞的對象也會大方讚賞。<br>
+          麥拉倫親手養大的太子，賽車天才，<br>
+          駕駛風格又瘋又莽但血性十足非常好看，<br>
+          可惜因為車太爛從2019年出道到2024年才終於拿到首勝，<br>
+          從Lando No-win變成Lando Now-win。<br>
+          和隊友某個角度長得很像，<br>
+          所以留起（其實並不太適合的）小鬍子以示區隔，<br>
+          被粉絲合稱麥拉倫雙子星。</p>
+      </div>
+    </div>
+  
+    <!-- Oscar Piastri -->
+    <div class="profile">
+      <img src="F1/piastri.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Oscar Piastri（2024賽季排名：4）</h3>
+        <p>和隊友一樣是個全方位賽車天才，<br>
+          師從前紅牛車手/現經紀人Mark Webber，<br>
+          駕駛風格乾淨利落，強勢但不冒進，在國內外車迷中快速圈粉，<br>
+          預計本年將正式加入競爭世界冠軍行列。<br>
+          和隊友某個角度長得很像，粉絲暱稱麥隊雙子星，<br>
+          年紀比較小但個性冷靜卻很幽默，<br>
+          雖然也會緊張和興奮但不太會表現出來，<br>
+          比較像雙子星中的兄長（雖然也有可能是因為Lando太幼稚）。</p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+ 
+ <section id="team5"><h2>Aston Martin</h2></section>
+ <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+  <!-- 圖片放左邊 -->
+  <img src="F1/aston Martin.jpg"  style="width: 250px;margin-right: 20px;">
+
+  <!-- 文字放右邊 -->
+  <div style="font-size: 16px; line-height: 1.6;">
+    <p><strong>車隊全名：</strong>Aston Martin Aramco F1 Team</p>
+    <p><strong>總部：</strong>Silverstone, United Kingdom</p>
+    <p><strong>車隊冠軍：</strong>0</p>
+    <p><strong>分站勝利：</strong>1</p>
+    <p><strong>桿位：</strong>1</p>
+    <p><strong>最快圈：</strong>3</p>
+  </div>
+</div>
+</div>
+<div style="padding: 20px;">
+  <p style="line-height: 1.8;">
+    前身是老牌的中游車隊，因為車隊老闆破產落跑而被新東家買下，自從新老闆加入後大力投資和挖角人才，終於在2023賽季初突然表現極度變得亮眼。<br>
+    多次站上頒獎台，但和擅長季中升級的麥拉倫相反，總是在升級後反而遭遇瓶頸，該賽季也因此被麥拉倫後來居上在積分榜上超越。<br>
+    2024年延續前一賽季後半年的疲態，但仍然能堅守住積分圈，整體表現應該算是上游集團的吊車尾（說「應該」是因為他們真的沒什麼存在感），<br>
+    但透過誠意和支票的力量打動傳奇設計師加入，展現了現任老闆的決心和財力。<br>
+  </p>
+</div>
+
+<!DOCTYPE html>
+  <html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <title>F1 Drivers - 靠左但不貼邊</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 800px;
+        margin-left: 40px; /* 控制與左邊的距離 */
+        padding: 20px 0;
+      }
+  
+      .profile {
+        display: flex;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+  
+      .profile img {
+        height: auto;
+        margin-right: 15px;
+        border-radius: 8px;
+      }
+  
+      .profile-text {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <!-- Lance Stroll -->
+    <div class="profile">
+      <img src="F1/lance.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Lance Stroll（2024賽季排名：13）</h3>
+        <p>早期靠爸爸贊助而從跳級進入F1，<br>
+          後來他爸直接買下當時將破產的中游車隊，<br>
+          再把百年跑車品牌買下來了為車隊冠名......<br>
+          對，董事長就是他爸。是真·太子。<br>
+          本人個性滿好的，據説相當幽默，<br>
+          但因為太容易被針對而變得低調；<br>
+          並非沒有實力，  事實上算是滿會跑雨戰的 <br>
+          （2024賽季巴西站後決定將這點列入待觀察之列），<br>
+          但因為鈔能力和忽高忽低、神鬼難辨的表現，廣泛為車迷所不喜。</p>
+      </div>
+    </div>
+  
+    <!-- Fernando Alonsoi -->
+    <div class="profile">
+      <img src="F1/Alonso.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Fernando Alonso（2024賽季排名：9）</h3>
+        <p>05-06賽季雙冠王，現在是車隊的太子太傅。<br>
+          技術高超外也是戰術流代表，即使已43歲仍然強得很恐怖，<br>
+          2025年更將與徒弟Botoleto同場競技，<br>
+          狀態好得讓人不知道什麼時候或是否真有退休的一天。<br>
+          個性老奸巨猾，是F1中的陰謀論中心。<br>
+          總是在經歴和車隊鬧翻<br>
+          ——跳槽——<br>
+          新車隊因為內鬥或醜聞等原因失去優勢後和車隊鬧翻的循環；<br>
+          但因為實力堅強，就算鬧翻也能在數年後和老東家一笑泯恩仇⋯⋯<br>
+          然後再次鬧翻，被戲稱是選隊鬼才。</p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+  
+  <section id="team6"><h2>Alpine</h2></section>
+  <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+    <!-- 圖片放左邊 -->
+    <img src="F1/alpine.png"  style="width: 250px;margin-right: 20px;">
+  
+    <!-- 文字放右邊 -->
+    <div style="font-size: 16px; line-height: 1.6;">
+      <p><strong>車隊全名：</strong>BWT Alpine F1 Team</p>
+      <p><strong>總部：</strong>Enstone, United Kingdom</p>
+      <p><strong>車隊冠軍：</strong>2</p>
+      <p><strong>分站勝利：</strong>21</p>
+      <p><strong>桿位：</strong>20</p>
+      <p><strong>最快圈：</strong>15</p>
+    </div>
+  </div>
+  </div>
+  <div style="padding: 20px;">
+    <p style="line-height: 1.8;">
+      2023賽季以華麗的國家隊陣容出賽，結果落一個不上不下的地位；<br>
+      2024賽季初慢得讓人髮指，本以為無望中游，又在季末憑藉巴西站的雙頒獎台漂亮翻盤，忙了一年最後還是在同樣的排名結束賽季，<br>
+      可能連他們自己都搞不清楚發生了什麼事。<br>
+      經歷兩年的人事地震，技術人員、高層、領隊和車手紛紛跳船（也有被開除丟下船的）後迎來頗具爭議的顧問，沒多久就宣佈將放棄廠隊優勢並開始介入車手陣容。<br>
+      總之如果覺得他們的比賽不好看，可以翻翻車隊新聞，會得到意外的樂趣。<br>
+    </p>
+  </div>
+
+  <!DOCTYPE html>
+  <html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <title>F1 Drivers - 靠左但不貼邊</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 800px;
+        margin-left: 40px; /* 控制與左邊的距離 */
+        padding: 20px 0;
+      }
+  
+      .profile {
+        display: flex;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+  
+      .profile img {
+        height: auto;
+        margin-right: 15px;
+        border-radius: 8px;
+      }
+  
+      .profile-text {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <!-- Pierre Gasly -->
+    <div class="profile">
+      <img src="F1/pierre.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Pierre Gasly（2024賽季排名：10）</h3>
+        <p>駕駛風格極具侵略性和攻擊性，職業生涯多舛，<br>
+          被廣泛認為缺少機運，是紅牛青訓體系的受害者之一。<br>
+          2024賽季全年0維修費創下歷史紀錄，<br>
+          足見其實力堅強及（過去較少被提及）優異的穩定性。<br>
+          圍場少見的E人，但偶包很重。<br>
+          曾經表演同時用四隻手機滑IG點讚的社群小王子，<br>
+          在社群上、媒體前都以開朗張揚的形象示人，<br>
+          女粉絲數量眾多；2025年初以平頭造型在車迷之間投下震撼彈。<br>
+          </p>
+      </div>
+    </div>
+  
+    <!-- Jake Doohan -->
+    <div class="profile">
+      <img src="F1/jake.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Jake Doohan（2025新秀）</h3>
+        <p>前Moto GP世界冠軍之子，<br>
+          2024賽季最後一場比賽代替被提早解約的Esteban Ocon出道，<br>
+          但據傳新合約只簽了6場比賽；<br>
+          在Alpine如今的態勢下，新賽季只有5場比賽能證明自己，<br>
+          對新人而言無疑是最殘酷的開局。<br>
+          高大、性格靦腆，但也有在比賽爭勝關頭拒絕車隊指令的前科，<br>
+          希望新賽季能有更多展現強硬態度的機會。</p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+  
+   <section id="team7"><h2>Williams</h2></section>
+   <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+    <!-- 圖片放左邊 -->
+    <img src="F1/williams.png"  style="width: 250px;margin-right: 20px;">
+  
+    <!-- 文字放右邊 -->
+    <div style="font-size: 16px; line-height: 1.6;">
+      <p><strong>車隊全名：</strong>Williams Racing</p>
+      <p><strong>總部：</strong>Grove, United Kingdom</p>
+      <p><strong>車隊冠軍：</strong>9</p>
+      <p><strong>分站勝利：</strong>114</p>
+      <p><strong>桿位：</strong>128</p>
+      <p><strong>最快圈：</strong>133</p>
+    </div>
+  </div>
+  </div>
+  <div style="padding: 20px;">
+    <p style="line-height: 1.8;">
+      曾經和法拉利、麥拉倫齊名的三大車隊，然而和前兩者不同，2020年以前都是以私人獨立車隊方式運作，<br>
+      在F1現代化過程中發展越發艱辛，完全無法拿出表現而長年墊底，直到被美國資本收購後才開始有資金注入。<br>
+      2023賽季在新領隊帶領下終於成功翻身為中下游領頭羊，雖然2024賽季因為各種原因而延後升級計畫，回到熟悉的倒數名次，但種種跡象都顯示他們正掃去過去的陰霾，積極為未來籌畫。<br>
+    </p>
+  </div>
+
+  <!DOCTYPE html>
+  <html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <title>F1 Drivers - 靠左但不貼邊</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 800px;
+        margin-left: 40px; /* 控制與左邊的距離 */
+        padding: 20px 0;
+      }
+  
+      .profile {
+        display: flex;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+  
+      .profile img {
+        height: auto;
+        margin-right: 15px;
+        border-radius: 8px;
+      }
+  
+      .profile-text {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <!-- Carlos Sainz -->
+    <div class="profile">
+      <img src="F1/carlos.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Carlos Sainz（2024賽季排名：5）</h3>
+        <p>傳奇車手Carlos Sainz, Sr.之子，<br>
+           大眼睛看起來笨笨的，其實是官方認證的策略大師，<br>
+           屬於靠頭腦開車的類型。<br>
+           2024賽季初就確認將離開法拉利，但直至7月才宣佈加盟威廉斯，<br>
+           因為能力和經驗都很強大，<br>
+           各陣營都不願意放過有可能簽下這位車手的機會，<br>
+           讓車手市場面臨整整五個月的談判僵局。<br>
+           缺乏personal space概念，喜歡用肢體語言表達親暱，<br>
+           被稱為圍場中的愛情騙子，<br>
+           一不小心就會被他迷得深魂顛倒，連車隊領隊也無法倖免。<br>
+           狗派，會抱著狗狗一邊看電影一邊哭。<br>
+          </p>
+      </div>
+    </div>
+  
+    <!-- Alex Albon -->
+    <div class="profile">
+      <img src="F1/albon.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Alex Albon（2024賽季排名：16）</h3>
+        <p>升上F1前的成績很亮眼，但進入後成為紅牛青訓受害者之一，<br>
+           一度失去席位；目前在威廉斯成為帶領老破小車隊的重要力量。<br>
+           屬於紅牛出身的車手中駕駛風格比較不紅牛的，但攻守能力皆佳，<br>
+           且受限於賽車競爭力低落緣故，時常踩在極限與失控的邊界，<br>
+           也因此在修車排行榜上總是高居不下。<br>
+           圍場傳聞紅牛多次想找他回鍋但被拒絕了；<br>
+           本人好個性佳又帥氣，不吝於給予後輩建議和支持，<br>
+           學弟角田和Lawson都受過其指指導，是圍場人氣王之一。</p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+ 
+  <section id="team8"><h2>Kick Sauber</h2></section>
+  <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+    <!-- 圖片放左邊 -->
+    <img src="F1/kick.PNG"  style="width: 250px;margin-right: 20px;">
+  
+    <!-- 文字放右邊 -->
+    <div style="font-size: 16px; line-height: 1.6;">
+      <p><strong>車隊全名：</strong>Stake F1 Team Kick Sauber</p>
+      <p><strong>總部：</strong>Hinwil, Switzerland</p>
+      <p><strong>車隊冠軍：</strong>0</p>
+      <p><strong>分站勝利：</strong>1</p>
+      <p><strong>桿位：</strong>1</p>
+      <p><strong>最快圈：</strong>7</p>
+    </div>
+  </div>
+  </div>
+  <div style="padding: 20px;">
+    <p style="line-height: 1.8;">
+      本體是瑞士籍老牌車隊Sauber車隊，曾經是許多知名車手出道的重要車隊，但如今除了即將變成Audi車隊和上任的新技術長大家很熟悉/痛恨之外沒什麼記憶點的隊伍，<br>
+      2024賽季初貢獻很精彩的換胎慘劇（而且不只一次），但改善後就徹底失去存在感，因為即將換新東家的關係目前有點全員擺爛中。
+    </p>
+  </div>
+
+  <!DOCTYPE html>
+  <html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <title>F1 Drivers - 靠左但不貼邊</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 800px;
+        margin-left: 40px; /* 控制與左邊的距離 */
+        padding: 20px 0;
+      }
+  
+      .profile {
+        display: flex;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+  
+      .profile img {
+        height: auto;
+        margin-right: 15px;
+        border-radius: 8px;
+      }
+  
+      .profile-text {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <!-- Nicolas Hulkenberg -->
+    <div class="profile">
+      <img src="F1/Nicolas.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Nicolas Hulkenberg（2024賽季排名：11）</h3>
+        <p>賽車技術堅強，巔峰時期一度有機會加入法拉利等上游車隊，<br>
+          少數沒有贊助商支持和賽車背景，<br>
+          完全靠實力生存下來的「真‧職業車手」。<br>
+          F1「出賽次數最多，卻從未站上過頒獎台」，<br>
+          悲慘紀錄的保持人，且在這些未上過頒獎台的人之中，<br>
+          也是生涯累積積分最高者，至今毎次出賽都在刷新紀錄，<br>
+          也被評價為可能是闈場中最會跑排位賽的車手之一。<br>
+          因為脾氣很差被說像綠巨人浩克，<br>
+          但在女兒出生後收斂不少，變成傻爸爸。
+          </p>
+      </div>
+    </div>
+  
+    <!-- Gabriel Botoleto -->
+    <div class="profile">
+      <img src="F1/Gabriel Botoleto.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Gabriel Botoleto（2025新秀）</h3>
+        <p>在2024年的F2系列賽中低調地後起直追，<br>
+          最終成為繼Charles Leclerc、<br>
+          George Russell及Oscar Piastri後，<br>
+          以第四位以新人身分拿下F3、F2雙冠並直升進入F1的車手。<br>
+          師從Fernando Alonso，<br>
+          2025賽季車迷們將看到師徒兩人同場競賽的場面，<br>
+          同時他也是Max Verstappen虛擬賽車隊的成員，<br>
+          可見其實力備受幾位前輩認可。</p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+
+  <section id="team9"><h2>Haas</h2></section>
+  <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+    <!-- 圖片放左邊 -->
+    <img src="F1/Haas.png"  style="width: 250px;margin-right: 20px;">
+  
+    <!-- 文字放右邊 -->
+    <div style="font-size: 16px; line-height: 1.6;">
+      <p><strong>車隊全名：</strong>MoneyGram Haas F1 Team</p>
+      <p><strong>總部：</strong>Kannapolis, United States</p>
+      <p><strong>車隊冠軍：</strong>0</p>
+      <p><strong>分站勝利：</strong>0</p>
+      <p><strong>桿位：</strong>1</p>
+      <p><strong>最快圈：</strong>2</p>
+    </div>
+  </div>
+  </div>
+  <div style="padding: 20px;">
+    <p style="line-height: 1.8;">
+      又小又窮的可憐車隊之一，據說Mercedes車隊隨便一天請假的員工人數都比哈斯全體員工數量還多，因為每年都很掙扎+前領隊很有人格魅力的關係，成為Netflix紀錄片的主角之一。<br>
+      為了省錢到處買零件回來拼裝，跟引擎供應商法拉利的關係頗深，甚至搬到人家辦公大樓內成立設計部門。<br>
+      2024賽季在新領隊帶領下成績大有起色並跟豐田簽訂技術合作協議，但究竟是不是曇花一現還有待觀察。
+    </p>
+  </div>
+
+  <!DOCTYPE html>
+  <html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <title>F1 Drivers - 靠左但不貼邊</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 800px;
+        margin-left: 40px; /* 控制與左邊的距離 */
+        padding: 20px 0;
+      }
+  
+      .profile {
+        display: flex;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+  
+      .profile img {
+        height: auto;
+        margin-right: 15px;
+        border-radius: 8px;
+      }
+  
+      .profile-text {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <!-- Esteban Ocon -->
+    <div class="profile">
+      <img src="F1/Esteban Ocon.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Esteban Ocon（2024賽季排名：14）</h3>
+        <p>開車風格強硬且有著強大的防守能力，<br>
+          但因多次對隊友展現防守技術的紀錄而不太受國內外網友歡迎。<br>
+          偶爾會微笑著拋出驚人之語或做出驚人之舉，<br>
+          例如曾經在身體不適的狀況下比賽中途嘔吐，<br>
+          但卻把嘔吐物硬吞回去，隱瞞下來，<br>
+          事後說因為他寧願死掉也不想退賽。<br>
+          成為職業賽車的經歷坎坷，養成了對媒體相對保守的作風，<br>
+          不喜歡為自己行為和爭議解釋，本人個性非常內斂溫暖，<br>
+          超級寵粉，私下是超級英雄、電玩和遙控車宅宅。
+          </p>
+      </div>
+    </div>
+  
+    <!-- Oliver Bearman -->
+    <div class="profile">
+      <img src="F1/Oliver Bearman.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Oliver Bearman（2025新秀）</h3>
+        <p>來自法拉利青訓，<br>
+          2024賽季分別代替Carlos Sainz及Kevin Magnessen出戰<br>
+          沙烏地阿拉伯、亞塞拜然及巴西三場比賽，<br>
+          在競爭力全然不同的車輛中都能安全帶回並拿下分數，<br>
+          因此在F2成績並沒有特別亮眼的情況下仍成功簽約Haas車隊；<br>
+          而三條賽道特性與比賽情勢也完全不同，<br>
+          也顯示了他扎實的綜合實力與天賦。<br>
+          身為法拉利重點培養的車手，<br>
+          被廣泛認為可能是繼Charles Leclerc後，<br>
+          下一個會坐在法拉利中哭泣的人。
+           </p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+
+  <section id="team10"><h2>RB/VCARB</h2></section>
+  <div style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px;">
+    <!-- 圖片放左邊 -->
+    <img src="F1/RB.jpg"  style="width: 250px;margin-right: 20px;">
+  
+    <!-- 文字放右邊 -->
+    <div style="font-size: 16px; line-height: 1.6;">
+      <p><strong>車隊全名：</strong>Visa Cash App Racing Bulls Formula One Team</p>
+      <p><strong>總部：</strong>Faenza, Italy</p>
+      <p><strong>車隊冠軍：</strong>0</p>
+      <p><strong>分站勝利：</strong>2</p>
+      <p><strong>桿位：</strong>1</p>
+      <p><strong>最快圈：</strong>3</p>
+    </div>
+  </div>
+  </div>
+  <div style="padding: 20px;">
+    <p style="line-height: 1.8;">
+      紅牛二隊，車迷暱稱為小牛，是為了培養未來紅牛車手而存在的車隊。<br>
+      兩位車手互相競爭，勝出者即會被優先提拔到紅牛車隊，被視為青訓的延續，造成紅牛體系車手都很容易陷入隊内競爭的特色，車手陣容變動速度也是最快的。<br>
+      受限於規則不能直接照搬紅牛的設計，但又時不時要抄紅牛的作業（實際上是在幫忙收集資料），因此競爭力及升級結果總是難以預測。<br>
+      車輛性能不可靠，場上策略表現更是更叫人不敢期待，唯一值得肯定的應該是賽車塗裝很帥，沒了。<br>
+    </p>
+  </div>
+
+  <!DOCTYPE html>
+  <html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <title>F1 Drivers - 靠左但不貼邊</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 800px;
+        margin-left: 40px; /* 控制與左邊的距離 */
+        padding: 20px 0;
+      }
+  
+      .profile {
+        display: flex;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+  
+      .profile img {
+        height: auto;
+        margin-right: 15px;
+        border-radius: 8px;
+      }
+  
+      .profile-text {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <!-- Liam Lawson -->
+    <div class="profile">
+      <img src="F1/Liam Lawson.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Liam Lawson（2024賽季總排名：21）</h3>
+        <p>2024賽季於美國大獎賽起代替Daniel Ricciardo出賽，<br>
+          擁有絕佳的適應力及以新人而言不錯的反應和攻擊性，<br>
+          但排位賽0:6輸給隊友且僅1場比賽獲得積分，<br>
+          使紅牛於季末提拔他的決定掀起熱議；2<br>
+          025賽季僅過了2場比賽，<br>
+          便因完全無法適應失去競爭力的賽車而被下放回二隊，<br>
+          創下隊史最快晉升（12場）及最快下放（2場）的紀錄。<br>
+          回二隊後外表與精神肉眼可見地明朗許多，希望能盡快找回速度。<br>
+          據合作過的車隊工作人員表示其個性和螢幕上展現的完全相反，<br>
+          私下是好相處也有禮貌的人。
+          </p>
+      </div>
+    </div>
+  
+    <!-- Isack Hadjar -->
+    <div class="profile">
+      <img src="F1/Isack Hadjar.jpg"  width="300">
+      <div class="profile-text">
+        <h3>Isack Hadjar（2025新秀）</h3>
+        <p>2024賽季的F2年度亞軍，此為他第二年參加F2賽事，<br>
+          也是職業生涯中最佳成績。<br>
+          賽車風格沿襲紅牛青訓一貫特色，充滿攻擊性，<br>
+          不管是駕駛方式還是TR都和早期的角田很相似。<br>
+          值得期待之餘，也讓人忍不住希望他能快速成長，<br>
+          否則在如今政治氛圍濃厚的紅牛體系中，<br>
+          很有可能成為繼Lawson之後的下一個犧牲者。<br>
+          是個喜歡空手道和日漫的宅宅，個性超級電波，<br>
+          會突然作出或說出讓人摸不著頭緒的行為與發言<br>
+          （如合照時突然伸手抓前面人的頭皮，或自我介紹12歲）。
+           </p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+
+
+  <!-- 我喜歡的 -->
+  <section id="driver1"><h2>Max Verstappen</h2></section>
+  <section id="driver2"><h2>Lewis Hamilton</h2></section>
+  <section id="driver3"><h2>Charles Leclerc</h2></section>
+  <section id="driver4"><h2>Lando Norris</h2></section>
+  <section id="driver5"><h2>Fernando Alonso</h2></section>
+
+</body>
+</html>
+
