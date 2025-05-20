@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>歡迎頁面</title>
+</head>
+<body>
+  <h1 id="greeting"></h1>
+
+  <script>
+    const userId = "U1243000";
+
+    
+    function getCookie(name) {
+      const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+      return match ? decodeURIComponent(match[2]) : null;
+    }
+
+    
+    function setCookie(name, value, days) {
+      const d = new Date();
+      d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+      const expires = "expires=" + d.toUTCString();
+      document.cookie = `${name}=${encodeURIComponent(value)}; ${expires}; path=/`;
+    }
+
+    
+    const visited = getCookie("visited");
+
+    if (visited === null) {
+      document.getElementById("greeting").textContent = `Hi ${userId}`;
+      setCookie("visited", "yes", 30); 
+    } else {
+      document.getElementById("greeting").textContent = `歡迎回來, ${userId}`;
+    }
+  </script>
+</body>
+</html>
+
